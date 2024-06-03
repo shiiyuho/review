@@ -1,3 +1,11 @@
 復習内容
+
+titleの説明
 ステート・・・useStateフックを使って、テキストエリアの内容を保存するためのState（question）を作成します。
+
+handleInputChange関数・・・テキストエリアの内容が変更されたときにStateを更新します。
+
+handleSubmit・・・フォームが送信されたときに実行され、ここでクイズの問題を保存する処理を追加することができます。
+
+textarea・・・Stateで管理しているquestionを設定し、onChangeプロパティにはhandleInputChange関数を設定します。
 
