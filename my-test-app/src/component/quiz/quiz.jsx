@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect } from "react";
 
 function Quiz() {
   const [quiz, setQuiz] = useState();
@@ -14,6 +15,12 @@ function Quiz() {
     alert(`Question: ${quiz}`);
     // ここで、クイズの問題を保存する処理を追加できます
   };
+
+  // コンポーネントがレンダリングされるたびに実行される
+  useEffect(() => {
+    //quizコンポーネントが再実行（表示）されるときに下記のコードをコンソールに表示させる。
+    console.log("レンダリングされたよ！！");
+  });
 
   return (
     <div>

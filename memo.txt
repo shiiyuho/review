@@ -9,3 +9,5 @@ handleSubmit・・・フォームが送信されたときに実行され、こ�
 
 textarea・・・Stateで管理しているquestionを設定し、onChangeプロパティにはhandleInputChange関数を設定します。
 
+レンダリング・・・コードを動かした際に、その動きを画面に表示させること
+
