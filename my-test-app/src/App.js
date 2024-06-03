@@ -1,4 +1,5 @@
 import "./App.css";
+import Quiz from "./component/quiz/quiz";
 import Title from "./component/title/title";
 
 function App() {
@@ -7,14 +8,7 @@ function App() {
       <header className="App-header">
         <Title />
 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Quiz />
       </header>
     </div>
   );
