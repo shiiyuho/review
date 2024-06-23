@@ -1,0 +1,20 @@
+Nest.js
+・プロジェクトの作成方法
+手順
+➀npm i -g @nestjs/cli　コマンドの実行
+➁nest new プロジェクトの名前　コマンドで、プロジェクトの作成
+
+起動コマンド
+npm run start:dev
+
+コントローラーの作成
+nest g controller コントローラー名　　コマンドで、コントローラーの作成
+
+サービスの作成
+nest g service サービス名　コマンドで、サービスの作成
+
+モジュールの作成
+nest g module モジュール名　コマンドでモジュールの作成
+
+typeOrmのインストール
+npm install --save typeorm @nestjs/typeorm pg
