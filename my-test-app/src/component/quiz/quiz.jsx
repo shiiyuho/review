@@ -47,6 +47,7 @@ function Quiz() {
       setFilteredQuestions(initialQuestions);
     } else {
       setFilteredQuestions(
+        //新しい配列を作成している
         initialQuestions.filter((q) => q.category === selectedCategory)
       );
     }
